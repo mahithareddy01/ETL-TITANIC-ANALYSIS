@@ -16,16 +16,3 @@ This project implements an **ETL (Extract, Transform, Load) pipeline** for the *
 - **Analyze:** Generate summary statistics and visualizations like survival rates, passenger class distributions, and age histograms.  
 
 ---
-
-## 💻 Code / File Structure
-ETL-Titanic/
-├── data/
-│ ├── raw/ # Original CSV files
-│ ├── staged/ # Transformed data
-│ └── processed/ # Analysis outputs
-├── extract.py # Extract raw data
-├── transform.py # Transform data
-├── load.py # Load data into database
-├── validate.py # Validate transformed data
-├── etl_analysis.py # Generate metrics and visualizations
-└── README.md
